@@ -1,4 +1,4 @@
-package com.testing;
+package testing;
 
 public class TestLamda {
 
