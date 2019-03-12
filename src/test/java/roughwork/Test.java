@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import utils.RandomUtil;
+
 public class Test {
 
 	public static void main(String[] args) throws IOException {
@@ -21,6 +23,7 @@ public class Test {
 		System.out.println(config.getProperty("browser"));
 		System.out.println(OR.getProperty("custlogin"));
 
+		RandomUtil.getRandomNumberByNofDigits(3);
 
 	}
 
