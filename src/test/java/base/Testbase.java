@@ -71,7 +71,7 @@ public class Testbase {
 
 			}
 
-			driver.get(config.getProperty("testurl"));
+			driver.get(config.getProperty("google"));
 			Thread.sleep(3000);
 			driver.manage().window().maximize();
 		}
