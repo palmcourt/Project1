@@ -1,7 +1,5 @@
 package testcases;
 
-import static org.testng.Assert.assertEquals;
-
 import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
